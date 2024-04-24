@@ -29,6 +29,7 @@ export default function Home() {
       ) : (
         <WatchTable tasks={tasks} />
       )}
+      <p className="text-center mt-8">Сейчас заявок: {tasks.length}</p>
     </div>
   );
 }
